@@ -35,8 +35,10 @@ def displayPathtoPrincess(n,grid):
         for _ in range(0,abs(num)):
             print(dir) 
             break
+
 m = int(input())
 input()
+
 grid = [] 
 for i in range(0, m): 
     grid.append(input().strip())
